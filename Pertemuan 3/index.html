@@ -2,10 +2,100 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Praktikum WEB 3</title>
 </head>
 <body>
-    
+    <header style="background-color: aliceblue;">
+        <h2>Header</h2>
+        <nav>
+            <a href="github.com">Github</a>
+            <a href="prakweb.html">Home</a>
+            <a href="#section1">Section1</a>
+            <a href="#section2">Section2</a>
+        </nav><br>
+    </header>
+    <section id="section1" style="background-color: aqua; height: 100vh;">
+        <article>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </article><br>
+        <aside>
+            <details>
+                <summary>
+                    Jurusan
+                </summary>
+                <ul>
+                    <li>Ilmu Komputer</li>
+                    <li>Teknik Iformatika</li>
+                    <li>Sistem Iformasi</li>
+                </ul>
+            </details>
+        </aside>
+    </section>
+    <section id="section2" style="background-color: antiquewhite; height: 100vh;">
+        
+        
+        <form action="#" method="post" target="_blank">
+            <fieldset>
+                <legend>Form</legend>
+            <label for="username">Nama: </label>
+            <input type="text" id="username" name="username">
+            <br><br>
+
+            <label for="npm">NPM: </label>
+            <input type="number" name="npm" id="npm">
+            <br><br>
+
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+            <br><br>
+
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password">
+            <br><br>
+
+            <label for="jk">Jenis Kelamin</label>
+            <br>
+            <input type="radio" name="jk" id="lk">
+            <label for="lk">Laki-laki</label>
+            <br>
+            <input type="radio" name="jk" id="pr">
+            <label for="pr">Perempuan</label>
+            <br><br>
+
+            <label for="">Hobi</label><br>
+            <input type="checkbox" name="hobi[]" id="hobi1" value="Reading">
+            <label for="hobi1">Reading</label><br>
+            <input type="checkbox" name="hobi[]" id="hobi2" value="Coding">
+            <label for="hobi1">Coding</label><br>
+            <input type="checkbox" name="hobi[]" id="hobi3" value="Sleeping">
+            <label for="hobi1">Sleeping</label><br><br>
+            </fieldset>
+
+            <label for="upload">Upload file</label>
+            <input type="file" name="upload" id="upload">
+            <br><br>
+
+            <label for="tanggal">Tanggal</label>
+            <input type="date" name="tanggal" id="tanggal"><br><br>
+
+            <label for="waktu">Waktu</label>
+            <input type="time" name="waktu" id="waktu"><br><br>
+
+            <input type="hidden" name="role" value="Mahasiswa">
+            <input type="hidden" name="jurusan" id="Ilmu Komputer">
+        
+            <label for="search">Cari Data</label>
+            <input type="search" id="search">
+            <br><br>
+
+            <button>submit</button>
+        </form>
+    </section>
+    <footer>Ilmu Komputer</footer>
 </body>
 </html>
