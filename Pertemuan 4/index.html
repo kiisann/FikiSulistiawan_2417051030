@@ -2,10 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pertemuan3Pemweb</title>
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/Prak4Web/style.css">
+
 </head>
 <body>
-    
+    <nav id="navbar">
+        <h1>CSS Dasar</h1>
+        <div>
+            <a href="#beranda">Beranda</a>
+            <a href="#materi">Materi</a>
+            <a href="#kontak">Kontak</a>
+        </div>
+    </nav>
+
+    <section id="beranda" class="section">
+        <div class="container">
+
+            <div class="hero">
+                <h2>
+                    <span>Belajar</span> CSS Dasar
+                </h2>
+                <p>Pemrograman Wev - Pertemuan 4</p>
+                <button class="tombol">Mulai Belajar</button>
+            </div>
+            
+            <div class="kartu-grid">
+                <div class="kartu">
+                     <h3>Selector</h3>
+                     <p>Selector menargetkan elemen HTML yangn ingin diberi style CSS.</p>
+                     <button class="tombol">Pelajari</button>
+                </div>
+     
+                <div class="kartu">
+                     <h3>Box Model</h3>
+                     <p>Margin, padding, border membentuk box model setiap elemen.</p>
+                     <button class="tombol">Pelajari</button>
+                </div>
+     
+                <div class="kartu">
+                     <h3>Flexbox</h3>
+                     <p>Display flex memudahkan pengaturan layout yang fleksibel.</p>
+                     <button class="tombol">Pelajari</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="materi" class="section">
+        <div class="container">
+            <h2>Materi</h2>
+            <p>Disini berisi materi CSS dasar.</p>
+        </div>
+    </section>
+
+    <section id="kontak" class="section">
+        <div class="grid">
+            <div>Kontak</div>
+            <div>Kontak</div>
+            <div>Kontak</div>
+            <div>Kontak</div>
+            <div>Kontak</div>
+            <div>Kontak</div>
+        </div>
+    </section>
+
+    <footer ">
+        Pemrograman Web - CSS Dasar
+    </footer>
+
 </body>
 </html>
