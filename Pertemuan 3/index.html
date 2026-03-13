@@ -10,8 +10,8 @@
     <header style="background-color: aliceblue;">
         <h2>Header</h2>
         <nav>
-            <a href="github.com">Github</a>
-            <a href="prakweb.html">Home</a>
+            <a href="https://github.com">Github</a>
+            <a href="#prakweb.html">Home</a>
             <a href="#section1">Section1</a>
             <a href="#section2">Section2</a>
         </nav><br>
@@ -35,13 +35,25 @@
                 </ul>
             </details>
         </aside>
+        <aside>
+            <details>
+                <summary>
+                    Fakultas
+                </summary>
+                <ol>
+                    <li>Fakultas Ilmu Komputer</li>
+                    <li>Fakultas Teknik</li>
+                    <li>Fakultas Ekonomi</li>
+                </ol>
+            </details>
+        </aside>
     </section>
+
     <section id="section2" style="background-color: antiquewhite; height: 100vh;">
-        
         
         <form action="#" method="post" target="_blank">
             <fieldset>
-                <legend>Form</legend>
+            <legend>Form</legend>
             <label for="username">Nama: </label>
             <input type="text" id="username" name="username">
             <br><br>
@@ -55,10 +67,10 @@
             <br><br>
 
             <label for="password">Password: </label>
-            <input type="password" name="password" id="password">
+            <input type="password" name="password" id="password" placeholder="Masukkan password">
             <br><br>
 
-            <label for="jk">Jenis Kelamin</label>
+            <label>Jenis Kelamin</label>
             <br>
             <input type="radio" name="jk" id="lk">
             <label for="lk">Laki-laki</label>
@@ -67,13 +79,22 @@
             <label for="pr">Perempuan</label>
             <br><br>
 
-            <label for="">Hobi</label><br>
+            <label>Hobi</label><br>
             <input type="checkbox" name="hobi[]" id="hobi1" value="Reading">
             <label for="hobi1">Reading</label><br>
             <input type="checkbox" name="hobi[]" id="hobi2" value="Coding">
-            <label for="hobi1">Coding</label><br>
+            <label for="hobi2">Coding</label><br>
             <input type="checkbox" name="hobi[]" id="hobi3" value="Sleeping">
-            <label for="hobi1">Sleeping</label><br><br>
+            <label for="hobi3">Sleeping</label><br><br>
+
+            <label for="kota">Kota</label>
+            
+            <select name="kota">
+            <option value="">-- Pilih Kota --</option>
+            <option value="jakarta">Jakarta</option>
+            <option value="bandung">Bandung</option>
+            <option value="surabaya">Surabaya</option>
+            </select>
             </fieldset>
 
             <label for="upload">Upload file</label>
