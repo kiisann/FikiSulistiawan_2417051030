@@ -23,13 +23,18 @@ body {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
  
-/* Avatar lingkaran abu */
-.avatar {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background: #c0c0c0;
-  margin: 0 auto 20px;
+/* Avatar */
+.avatar{
+  width:80px;
+  height:80px;
+  margin:0 auto 20px;
+}
+
+.avatar img{
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  object-fit:cover;
 }
  
 /* Judul */
